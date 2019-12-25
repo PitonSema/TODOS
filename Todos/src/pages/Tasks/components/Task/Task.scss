@@ -1,0 +1,43 @@
+.sentence {
+  background: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .task{
+    word-wrap: break-word;
+  }
+
+  .sentence-places{
+    display: flex;
+
+    .sentence-status{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      max-width: 170px;
+      margin: 0 10px;
+
+      .notcomplete{
+        color: rgba(231, 82, 82, 0.733);
+
+      }
+      .complete{
+        color: rgba(82, 231, 114, 0.733);
+      }
+    }
+    .ant-dropdown-link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      background:rgba(167, 198, 233, 0.596);
+      border-radius: 15px;
+      padding: 0 10px;
+    }
+  }
+}

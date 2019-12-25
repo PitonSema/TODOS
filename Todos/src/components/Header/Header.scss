@@ -1,0 +1,17 @@
+.header-container {
+  justify-content: space-between;
+  display: flex;
+  background: #86ccfb;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px 0 30px;
+
+  .header-logo {
+    font-size: 30px;
+    color:rgb(53, 127, 187)
+  }
+  .ant-dropdown-link{
+    color:rgb(53, 127, 187);
+    font-size: 15px;
+  }
+}
